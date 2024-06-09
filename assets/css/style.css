@@ -1,0 +1,37 @@
+*{
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    margin: 0;
+    box-sizing: border-box;
+    background-image: url('assets\img\rain_background.jpg');
+    background: linear-gradient(to top, rgba(25, 164, 81, 0.8), rgb(207, 107, 40)),
+    url(img/fondo_home.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.header{
+    font: normal normal medium 50px/59px Platypi;
+    letter-spacing: 0px;
+    opacity: 1;
+}
+
+.image {
+    max-width: 100%;
+    height: auto;
+}
+
+
+body {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+/* Estilos para grid de imagenes*/
+.custom-image {
+    width: 200px;
+    height: 200px;
+}
